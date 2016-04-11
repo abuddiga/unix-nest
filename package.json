@@ -1,0 +1,39 @@
+{
+  "name": "unix-nest",
+  "version": "1.0.0",
+  "description": "CLI tool to interact with nest",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/abuddiga/unix-nest.git"
+  },
+  "author": "Akshay Buddiga",
+  "license": "GNU",
+  "bugs": {
+    "url": "https://github.com/abuddiga/unix-nest/issues"
+  },
+  "homepage": "https://github.com/abuddiga/unix-nest#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jwt-simple": "^0.4.1",
+    "morgan": "^1.6.1",
+    "nodemon": "^1.8.1",
+    "request": "^2.69.0",
+    "sequelize": "^3.19.2",
+    "underscore": "^1.8.3",    
+    "grunt": "^0.4.4",
+    "grunt-contrib-concat": "^0.3.0",
+    "grunt-contrib-cssmin": "^0.9.0",
+    "grunt-contrib-uglify": "^0.4.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-eslint": "^17.3.1",
+    "grunt-mocha-test": "^0.10.0",
+    "grunt-nodemon": "^0.2.1",
+    "grunt-shell": "^0.6.4",
+    "grunt-git": "^0.3.7"
+  }
+}
